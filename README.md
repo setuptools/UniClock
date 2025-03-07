@@ -1,11 +1,11 @@
 # UniClock
 
 
-#init project
+## init project
 `npm init -y`
 
-#install electron
+## install electron
 `npm install electron`
 
-#start app
+## start app
 `npm start`
