@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "electron": "^35.0.0"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "name": "uniclock",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

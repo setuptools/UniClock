@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;">
+
+    <title>UniClock</title>
+    <link rel="stylesheet" href="../assets/styles/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div id="background" class = "light-mode">
+        <div class="top-app-bar">
+            <button id="theme-switcher">
+                <span class="material-icons">light_mode</span>
+                <span class="material-icons">dark_mode</span>
+            </button>
+            <button id="top-app-bar-button-close" class="top-app-bar-button-close">
+                <span class="material-icons">close</span>
+            </button>
+        </div>
+
+        <div class = "timer-container">
+            <h1 class = "timer", id = "timer">00:00:00</h1>
+        </div>
+    </div>
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
