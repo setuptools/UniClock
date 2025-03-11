@@ -3,7 +3,9 @@
     "electron": "^35.0.0"
   },
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "name": "uniclock",
   "version": "1.0.0",
